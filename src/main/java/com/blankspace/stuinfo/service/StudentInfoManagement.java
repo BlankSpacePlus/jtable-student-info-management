@@ -1,8 +1,8 @@
-package com.train.info.service;
-
-import com.train.info.pojo.StudentInfo;
+package com.blankspace.stuinfo.service;
 
 import java.util.List;
+
+import com.blankspace.stuinfo.pojo.StudentInfo;
 
 public interface StudentInfoManagement {
 

@@ -1,4 +1,4 @@
-package com.train.info.pojo;
+package com.blankspace.stuinfo.pojo;
 
 import java.util.ArrayList;
 import java.util.Date;

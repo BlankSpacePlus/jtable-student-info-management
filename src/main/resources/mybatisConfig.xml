@@ -5,7 +5,7 @@
 <configuration>
     <!-- 别名 -->
     <typeAliases>
-        <package name="com.train.info.pojo"/>
+        <package name="com.blankspace.stuinfo.pojo"/>
     </typeAliases>
     <!-- 数据库环境 -->
     <environments default="development">

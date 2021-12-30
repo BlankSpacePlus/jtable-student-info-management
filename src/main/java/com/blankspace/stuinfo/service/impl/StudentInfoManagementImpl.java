@@ -1,22 +1,23 @@
-package com.train.info.service.impl;
-
-import com.train.info.dao.StudentInfoDao;
-import com.train.info.dao.StudentInfoMapper;
-import com.train.info.pojo.StudentInfo;
-import com.train.info.pojo.StudentInfoExample;
-import com.train.info.service.StudentInfoManagement;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+package com.blankspace.stuinfo.service.impl;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import com.blankspace.stuinfo.dao.StudentInfoDao;
+import com.blankspace.stuinfo.dao.StudentInfoMapper;
+import com.blankspace.stuinfo.pojo.StudentInfo;
+import com.blankspace.stuinfo.pojo.StudentInfoExample;
+import com.blankspace.stuinfo.service.StudentInfoManagement;
+
 public class StudentInfoManagementImpl implements StudentInfoManagement {
 
-    private StudentInfoDao dao = StudentInfoDao.getDaoObj();
+    private final StudentInfoDao dao = StudentInfoDao.getDaoObj();
 
     private SqlSessionFactory sqlSessionFactory;
 

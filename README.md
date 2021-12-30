@@ -1,12 +1,13 @@
 # 简单信息管理功能
 
-@Author BlankSpace<br/>
-@Date 2020-07-23<br/>
+![](src/main/resources/images/UI.png)
 
-| 技术名称 | 技术用途 |
-|:---:|:---:|
-| Swing | 前端GUI |
-| JDBC | 数据库访问 |
+## 开发技术
+
+|  技术名称   | 技术用途  |
+|:-------:|:-----:|
+|  Swing  | 前端GUI |
+|  JDBC   | 数据库访问 |
 | MyBatis | 数据库访问 |
 
 ## 包结构划分
@@ -32,6 +33,8 @@
 
 ## 图片来源
 - [Iconfont-阿里云官网Logo](https://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.de12df413&cid=16472)
+- ![](src/main/resources/images/lock.png) ![](src/main/resources/images/unlock.png) ![](src/main/resources/images/refresh.png)
 
 ## 更新日志
 - 2020-07-24 将JDBC升级为MyBatis
+- 2021-12-31 重构工程结构+CheckStyle+补充运行截图+调整细节

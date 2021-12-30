@@ -1,9 +1,11 @@
-package com.train.info.dao;
+package com.blankspace.stuinfo.dao;
 
-import com.train.info.pojo.StudentInfo;
-import com.train.info.pojo.StudentInfoExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
+
+import com.blankspace.stuinfo.pojo.StudentInfo;
+import com.blankspace.stuinfo.pojo.StudentInfoExample;
 
 public interface StudentInfoMapper {
     /**

@@ -1,14 +1,14 @@
-package com.train.info.controller;
-
-import com.train.info.pojo.StudentInfo;
-import com.train.info.service.StudentInfoManagement;
-import com.train.info.service.impl.StudentInfoManagementImpl;
+package com.blankspace.stuinfo.controller;
 
 import java.util.List;
 
+import com.blankspace.stuinfo.pojo.StudentInfo;
+import com.blankspace.stuinfo.service.StudentInfoManagement;
+import com.blankspace.stuinfo.service.impl.StudentInfoManagementImpl;
+
 public class StudentInfoController {
 
-    private StudentInfoManagement management = StudentInfoManagementImpl.getManagementObj();
+    private final StudentInfoManagement management = StudentInfoManagementImpl.getManagementObj();
 
     private static StudentInfoController controller;
 
